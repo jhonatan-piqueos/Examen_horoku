@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - 14 # Puedes especificar la versión de Node.js que deseas utilizar
+
+# Instala dependencias antes de ejecutar las pruebas
+install:
+  - npm install
+
+# Comando para ejecutar las pruebas
+script:
+  - npm test
